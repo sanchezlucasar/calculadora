@@ -1,0 +1,51 @@
+#result,
+#operation {
+    background-color: black;
+    width: 9em;
+    border: none;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin: 0.5em 0 0.5em 0;
+    min-width: 90%;
+}
+
+#box {
+    margin: auto;
+    width: 490px;
+    height: 200px;
+    background-color: black;
+    padding: 2em 0.7em 35em 1em;
+    border-radius: 2%;
+    color: #ffffff;
+}
+
+.bot {
+    display: grid;
+    place-items: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    float: left;
+    border: 6px solid black;
+    font-size: 36px;
+    background: #ccc;
+}
+
+.bot_gris {
+    background-color: gray;
+}
+
+.bot_naranja {
+    background-color: rgb(224, 105, 8);
+}
+
+.bot_doble {
+    width: 232px;
+    border-radius: 34%/75%;
+}
+
+.bot:hover {
+    background-color: rgb(99, 39, 39);
+    border-color: white;
+}
